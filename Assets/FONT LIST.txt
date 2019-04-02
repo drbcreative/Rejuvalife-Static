@@ -1,0 +1,28 @@
+Font Primary - Lato
+Font Secondary - Lato
+
+Navbar:
+  Font Primary, 16, Regualr
+
+Hero Lead:
+  Font Primary, 20, Light
+
+H1:
+  Font Secondary, 65, Light
+
+h2:
+  Font Secondary, 50, Light
+
+h3: 
+  Font Primary, 25 Italiac
+
+h4, h5: Undefined
+
+Body Copy:
+  Font Primary, 20, Light
+
+Learn More Btn:
+  Font Primary, 16, Bold
+
+Footer Headers:
+  Font Secondary, 25, Light

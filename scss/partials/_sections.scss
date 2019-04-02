@@ -1,0 +1,141 @@
+/* -------------------------------------------------------------------------- */
+/* SECTION STYLES */
+/* -------------------------------------------------------------------------- */
+.containerish {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+/* -------------------------------------------------------------------------- */
+/* HERO SECTION */
+/* -------------------------------------------------------------------------- */
+.hero {
+  overflow: hidden;
+  position: relative;
+  .slide {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    .content-wrapper {
+      width: 100%;
+      height: auto;
+      max-width: 1300px;
+      margin: 0 auto;
+
+      padding: 40px 20px;
+      display: grid;
+
+      p {
+        max-width: 420px;
+      }
+    }
+
+    &.slide-1 {
+      background: url("../img/hero-1@2x.jpg") center left / cover;
+    }
+    &.slide-2 {
+      background: url("../img/hero-1@2x.jpg") center left / cover;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* SEARCH SECTION */
+/* -------------------------------------------------------------------------- */
+.search {
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .form-control {
+      border-radius: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-control:not(button) {
+      border: 1px solid #ededed;
+    }
+
+    ::placeholder {
+      color: #3e3a42;
+      font-family: $font-primary;
+      font-size: 15px;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* NEWSLETTER SECTION */
+/* -------------------------------------------------------------------------- */
+.newsletter {
+  padding: 40px 20px;
+  min-height: 200px;
+  background: url("../img/newsletter-bg@2x.jpg") center / cover;
+  align-items: center;
+  .containerish {
+    display: grid;
+    h3,
+    h2 {
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+    .form-control {
+      margin-bottom: 0.5rem;
+      border-radius: 0;
+    }
+    .form-control:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* APPOINTMENTS SECTION */
+/* -------------------------------------------------------------------------- */
+.appointments {
+  background: url("../img/appointment-bg@2x.jpg") center / cover;
+  min-height: 400px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .appointment-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #appointment-form {
+      background: rgba($color-white, 0.95);
+      min-height: 200px;
+      margin-top: 2rem;
+      width: 100%;
+      max-width: 855px;
+      padding: 2rem 1rem;
+
+      .form-control {
+        border-radius: 0;
+      }
+      input:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+
+    .care-logo {
+      margin-top: 3rem;
+      max-width: 400px;
+    }
+    #financing {
+      margin: 2rem 0 2rem 0;
+    }
+  }
+}
