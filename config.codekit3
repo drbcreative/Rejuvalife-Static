@@ -549,8 +549,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/slider-init.js",
-		"oF": 0,
+		"oAP": "/js/slider-init.min.js",
+		"oF": 2,
 		"sC": 3,
 		"tS": 0
 		},
@@ -798,8 +798,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/scss/theme.css",
-		"oF": 0,
+		"oAP": "/css/theme.min.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},

@@ -19,9 +19,69 @@
 @media screen and (min-width: 768px) {
   .ui-btn {
     display: inline-flex;
-    width: auto;
+    width: 220px;
+  }
+  /* TOPBAR ******************************************************* */
+  .topbar {
+    .containerish {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: 1fr 1fr;
+      padding: 0.2rem 0.5rem;
+
+      .col-left {
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .col-mid {
+        display: none;
+      }
+      .col-right {
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
   }
   /* HERO ********************************************************* */
+  .hero {
+    .slide {
+      height: 60vh;
+      display: flex;
+      align-items: flex-end;
+
+      .content-wrapper {
+        width: 100%;
+        height: auto;
+        max-width: 1300px;
+        margin: 0 auto;
+
+        padding: 40px 20px;
+        display: grid;
+      }
+
+      .slide-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &.slide-1 {
+        background: url("../../img/hero@2x.jpg") bottom center / cover;
+        // background: $color-dark;
+      }
+      &.slide-2 {
+        background: url("../../img/hero@2x.jpg") bottom center / cover;
+        // background: $color-dark;
+      }
+    }
+  }
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
   /* BIO ********************************************************** */
@@ -60,33 +120,38 @@
   .topbar {
     .containerish {
       display: grid;
-      grid-template-columns: max-content 1fr max-content;
-      padding: 0.2rem 0rem;
+      grid-template-rows: auto;
+      grid-template-columns: 50px 1fr max-content;
+      padding: 0.2rem 0;
 
-      p {
-        margin: 0 !important;
-      }
-
-      .col-mid {
-        width: 100%;
-        display: block;
+      .col-left {
+        grid-row: 1;
+        grid-column: 1;
         display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .col-mid {
+        display: block;
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
         justify-content: center;
       }
       .col-right {
-        .topbar-link {
-          margin-right: 1rem;
-          display: inline-block;
-        }
-        .topbar-link:last-child {
-          margin-right: 0 !important;
-        }
+        grid-row: 1;
+        grid-column: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
       }
     }
   }
   .navbar {
     .nav-logo {
-      max-width: 175px;
+      max-width: 150px;
+      margin-top: 2px;
     }
   }
   /* HERO ********************************************************* */
@@ -108,25 +173,41 @@
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
   /* HEADER ******************************************************* */
-  .navbar-wrapper {
-    .logo-desktop {
-      display: block;
-      width: 30%;
-      height: 123px;
-      background-image: radial-gradient(#db7ca4, #c86d94);
-      position: absolute;
-      top: 0;
-      left: 0;
-      z-index: 25;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1rem;
+  .topbar {
+    .containerish {
+      display: grid;
+      grid-template-rows: auto;
+      grid-template-columns: max-content 1fr max-content;
+      padding: 0.2rem 0;
 
-      img {
-        width: 100%;
-        height: auto;
+      .col-left {
+        grid-row: 1;
+        grid-column: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
       }
+      .col-mid {
+        display: block;
+        grid-row: 1;
+        grid-column: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .col-right {
+        grid-row: 1;
+        grid-column: 3;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+    }
+  }
+  .navbar {
+    .nav-logo {
+      max-width: 350px;
+      margin-top: 2px;
     }
   }
   /* HERO ********************************************************* */

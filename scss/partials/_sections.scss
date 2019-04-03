@@ -15,9 +15,10 @@
   overflow: hidden;
   position: relative;
   .slide {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     align-items: center;
+
     .content-wrapper {
       width: 100%;
       height: auto;
@@ -28,15 +29,17 @@
       display: grid;
 
       p {
-        max-width: 420px;
+        max-width: 520px;
       }
     }
 
     &.slide-1 {
-      background: url("../img/hero-1@2x.jpg") center left / cover;
+      // background: url("../../img/hero@2x.jpg") bottom center / cover;
+      background: $color-dark;
     }
     &.slide-2 {
-      background: url("../img/hero-1@2x.jpg") center left / cover;
+      // background: url("../../img/hero@2x.jpg") bottom center / cover;
+      background: $color-dark;
     }
   }
 }

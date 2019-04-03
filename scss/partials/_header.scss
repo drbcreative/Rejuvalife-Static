@@ -15,11 +15,12 @@ header {
   height: 30px;
   height: auto;
   // padding: .3rem 0;
-  background-color: $color-light-accent;
+  background-color: $color-dark-accent;
 
   .containerish {
     display: grid;
-    grid-template-columns: max-content 1fr;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
     padding: 0.2rem 0.5rem;
 
     .topbar-link {
@@ -51,14 +52,19 @@ header {
     }
 
     .col-left {
+      grid-row: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
     .col-mid {
       display: none;
     }
     .col-right {
+      grid-row: 2;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
     }
 
     .topbar-link {
@@ -75,9 +81,6 @@ header {
 /* -------------------------------------------------------------------------- */
 /* NAVBAR */
 /* -------------------------------------------------------------------------- */
-.logo-desktop {
-  display: none;
-}
 .navbar-wrapper {
   background: $color-white;
   position: relative;
@@ -99,7 +102,6 @@ header {
     font-family: $font-primary !important;
     color: $color-dark !important;
     font-size: 0.875rem;
-    font-weight: 600;
     font-style: normal;
 
     &:hover {
