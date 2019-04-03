@@ -48,12 +48,11 @@
 /* SEARCH SECTION */
 /* -------------------------------------------------------------------------- */
 .search {
+  background: $color-light;
   padding: 40px 20px;
 
   .containerish {
     display: grid;
-    max-width: 1200px;
-    margin: 0 auto;
 
     .form-control {
       border-radius: 0;

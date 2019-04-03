@@ -83,6 +83,31 @@
     }
   }
   /* SEARCH ******************************************************* */
+  .search {
+    background: $color-light;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-column-gap: 1rem;
+
+      .form-control {
+        border-radius: 0;
+        margin-bottom: 0.5rem;
+      }
+
+      .form-control:not(button) {
+        border: 1px solid #ededed;
+      }
+
+      ::placeholder {
+        color: #3e3a42;
+        font-family: $font-primary;
+        font-size: 15px;
+      }
+    }
+  }
   /* COOLSCULPTING ************************************************ */
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
