@@ -179,6 +179,50 @@
     }
   }
   /* NEWSLETTER *************************************************** */
+  .newsletter {
+    align-items: center;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: 1rem;
+      h3,
+      h2 {
+        text-align: center;
+      }
+      h2 {
+        margin-bottom: 1rem;
+        grid-column: 1 / -1;
+        grid-row: 1;
+      }
+      p.body-copy {
+        grid-row: 2;
+        grid-column: 1 / -1;
+        text-align: center;
+      }
+      input[type="text"] {
+        grid-row: 3;
+        grid-column: 1 / 2;
+      }
+      input[type="email"] {
+        grid-row: 3;
+        grid-column: 2 / 3;
+      }
+      button {
+        grid-row: 3;
+        grid-column: 3 / 3;
+        width: 100% !important;
+      }
+      .form-control {
+        margin-bottom: 0.5rem;
+        border-radius: 0;
+      }
+      .form-control:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
   /* MEDICAL WEIGHT LOSS ****************************************** */
@@ -317,6 +361,14 @@
     }
   }
   /* NEWSLETTER *************************************************** */
+  .newsletter {
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr 220px;
+      grid-template-rows: auto;
+      grid-column-gap: 1rem;
+    }
+  }
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
   /* MEDICAL WEIGHT LOSS ****************************************** */

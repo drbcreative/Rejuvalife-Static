@@ -125,11 +125,11 @@
 /* NEWSLETTER SECTION */
 /* -------------------------------------------------------------------------- */
 .newsletter {
-  padding: 40px 20px;
   min-height: 200px;
-  background: url("../img/newsletter-bg@2x.jpg") center / cover;
   align-items: center;
   .containerish {
+    padding: 40px 20px;
+    background: url("../img/newsletter-bg@2x.jpg") center / cover;
     display: grid;
     h3,
     h2 {

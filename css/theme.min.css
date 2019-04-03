@@ -479,11 +479,11 @@ header {
 /* NEWSLETTER SECTION */
 /* -------------------------------------------------------------------------- */
 .newsletter {
-  padding: 40px 20px;
   min-height: 200px;
-  background: url("../img/newsletter-bg@2x.jpg") center/cover;
   align-items: center; }
   .newsletter .containerish {
+    padding: 40px 20px;
+    background: url("../img/newsletter-bg@2x.jpg") center/cover;
     display: grid; }
     .newsletter .containerish h3,
     .newsletter .containerish h2 {
@@ -972,6 +972,39 @@ img {
       .bio .containerish .section-info h2 {
         margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
+  .newsletter {
+    align-items: center; }
+    .newsletter .containerish {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: 1rem; }
+      .newsletter .containerish h3,
+      .newsletter .containerish h2 {
+        text-align: center; }
+      .newsletter .containerish h2 {
+        margin-bottom: 1rem;
+        grid-column: 1 / -1;
+        grid-row: 1; }
+      .newsletter .containerish p.body-copy {
+        grid-row: 2;
+        grid-column: 1 / -1;
+        text-align: center; }
+      .newsletter .containerish input[type="text"] {
+        grid-row: 3;
+        grid-column: 1 / 2; }
+      .newsletter .containerish input[type="email"] {
+        grid-row: 3;
+        grid-column: 2 / 3; }
+      .newsletter .containerish button {
+        grid-row: 3;
+        grid-column: 3 / 3;
+        width: 100% !important; }
+      .newsletter .containerish .form-control {
+        margin-bottom: 0.5rem;
+        border-radius: 0; }
+      .newsletter .containerish .form-control:last-child {
+        margin-bottom: 0; }
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
   /* MEDICAL WEIGHT LOSS ****************************************** */
@@ -1074,6 +1107,11 @@ img {
       .bio .containerish .section-info h2 {
         margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
+  .newsletter .containerish {
+    display: grid;
+    grid-template-columns: 1fr 1fr 220px;
+    grid-template-rows: auto;
+    grid-column-gap: 1rem; }
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
   /* MEDICAL WEIGHT LOSS ****************************************** */
