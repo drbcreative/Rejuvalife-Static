@@ -74,8 +74,8 @@
 /* COOLSCULPTING SECTION */
 /* -------------------------------------------------------------------------- */
 .coolsculpting {
-  padding: 40px 20px;
-  // overflow: hidden;
+  padding: 40px 20px 40px 20px;
+  overflow: hidden;
   background: url("../../img/cool-sculpting-bg@2x.jpg") center / cover;
 
   .containerish {
@@ -92,12 +92,35 @@
       h3,
       h2,
       p {
-        text-align: center;
+        text-align: left;
+      }
+      h2 {
+        margin: 1rem 0;
       }
     }
   }
 }
+/* -------------------------------------------------------------------------- */
+/* BIO SECTION */
+/* -------------------------------------------------------------------------- */
+.bio {
+  .containerish {
+    padding: 40px 20px;
+    background-image: radial-gradient(#ffffff, #f2f4f5);
+    min-height: 200px;
+    display: grid;
 
+    img {
+      margin-bottom: 2rem;
+    }
+
+    .section-info {
+      h2 {
+        margin: 1rem 0;
+      }
+    }
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* NEWSLETTER SECTION */
 /* -------------------------------------------------------------------------- */

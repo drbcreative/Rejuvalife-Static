@@ -443,7 +443,8 @@ header {
 /* COOLSCULPTING SECTION */
 /* -------------------------------------------------------------------------- */
 .coolsculpting {
-  padding: 40px 20px;
+  padding: 40px 20px 40px 20px;
+  overflow: hidden;
   background: url("../../img/cool-sculpting-bg@2x.jpg") center/cover; }
   .coolsculpting .containerish {
     min-height: 400px; }
@@ -457,7 +458,22 @@ header {
     .coolsculpting .containerish .section-info h3,
     .coolsculpting .containerish .section-info h2,
     .coolsculpting .containerish .section-info p {
-      text-align: center; }
+      text-align: left; }
+    .coolsculpting .containerish .section-info h2 {
+      margin: 1rem 0; }
+
+/* -------------------------------------------------------------------------- */
+/* BIO SECTION */
+/* -------------------------------------------------------------------------- */
+.bio .containerish {
+  padding: 40px 20px;
+  background-image: radial-gradient(#ffffff, #f2f4f5);
+  min-height: 200px;
+  display: grid; }
+  .bio .containerish img {
+    margin-bottom: 2rem; }
+  .bio .containerish .section-info h2 {
+    margin: 1rem 0; }
 
 /* -------------------------------------------------------------------------- */
 /* NEWSLETTER SECTION */
@@ -909,9 +925,9 @@ img {
         font-size: 15px; }
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
-    padding: 40px 20px; }
+    padding: 40px 20px 0 20px; }
     .coolsculpting .containerish {
-      min-height: 500px;
+      min-height: 400px;
       display: grid;
       grid-template-columns: 1fr 75px 1fr;
       position: relative; }
@@ -937,6 +953,24 @@ img {
           width: auto;
           padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
+  .bio .containerish {
+    padding: 40px 20px;
+    background-image: radial-gradient(#ffffff, #f2f4f5);
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2rem;
+    align-items: flex-start; }
+    .bio .containerish .section-img {
+      grid-row: 1;
+      grid-column: 2; }
+      .bio .containerish .section-img img {
+        margin-top: 0px; }
+    .bio .containerish .section-info {
+      grid-row: 1;
+      grid-column: 1; }
+      .bio .containerish .section-info h2 {
+        margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -995,7 +1029,8 @@ img {
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
-    padding: 40px 20px 0 20px; }
+    padding: 40px 20px 0 20px;
+    overflow: initial; }
     .coolsculpting .containerish {
       min-height: 530px;
       display: grid;
@@ -1020,6 +1055,24 @@ img {
           width: auto;
           padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
+  .bio .containerish {
+    padding: 40px 20px;
+    background-image: radial-gradient(#ffffff, #f2f4f5);
+    min-height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 2rem;
+    align-items: flex-start; }
+    .bio .containerish .section-img {
+      grid-row: 1;
+      grid-column: 2; }
+      .bio .containerish .section-img img {
+        margin-top: -50px; }
+    .bio .containerish .section-info {
+      grid-row: 1;
+      grid-column: 1; }
+      .bio .containerish .section-info h2 {
+        margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -1065,7 +1118,8 @@ img {
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
-    padding: 40px 20px 0 20px; }
+    padding: 40px 20px 0 20px;
+    overflow: initial; }
     .coolsculpting .containerish {
       min-height: 85vh;
       display: grid;
@@ -1090,6 +1144,22 @@ img {
           width: auto;
           padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
+  .bio .containerish {
+    padding: 60px 4rem;
+    display: grid;
+    grid-template-columns: 1fr 420px;
+    grid-column-gap: 6rem;
+    align-items: center; }
+    .bio .containerish .section-img {
+      grid-row: 1;
+      grid-column: 2; }
+      .bio .containerish .section-img img {
+        margin-top: -70px; }
+    .bio .containerish .section-info {
+      grid-row: 1;
+      grid-column: 1; }
+      .bio .containerish .section-info h2 {
+        margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -1141,6 +1211,22 @@ img {
         .coolsculpting .containerish .section-info .ui-btn {
           min-width: 220px; }
   /* BIO ********************************************************** */
+  .bio .containerish {
+    padding: 40px 4rem;
+    display: grid;
+    grid-template-columns: 1fr 100px 320px;
+    grid-column-gap: 6rem;
+    align-items: center; }
+    .bio .containerish .section-img {
+      grid-row: 1;
+      grid-column: 2 / 4; }
+      .bio .containerish .section-img img {
+        margin-top: -70px; }
+    .bio .containerish .section-info {
+      grid-row: 1;
+      grid-column: 1; }
+      .bio .containerish .section-info h2 {
+        margin: 1rem 0; }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */

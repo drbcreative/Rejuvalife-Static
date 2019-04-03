@@ -110,11 +110,10 @@
   }
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
-    padding: 40px 20px;
-    // overflow: hidden;
+    padding: 40px 20px 0 20px;
 
     .containerish {
-      min-height: 500px;
+      min-height: 400px;
       display: grid;
       grid-template-columns: 1fr 75px 1fr;
       position: relative;
@@ -151,6 +150,34 @@
     }
   }
   /* BIO ********************************************************** */
+  .bio {
+    .containerish {
+      padding: 40px 20px;
+      background-image: radial-gradient(#ffffff, #f2f4f5);
+      min-height: 200px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-column-gap: 2rem;
+      align-items: flex-start;
+
+      .section-img {
+        grid-row: 1;
+        grid-column: 2;
+
+        img {
+          margin-top: 0px;
+        }
+      }
+
+      .section-info {
+        grid-row: 1;
+        grid-column: 1;
+        h2 {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -225,7 +252,7 @@
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
     padding: 40px 20px 0 20px;
-    // overflow: hidden;
+    overflow: initial;
 
     .containerish {
       min-height: 530px;
@@ -261,6 +288,34 @@
     }
   }
   /* BIO ********************************************************** */
+  .bio {
+    .containerish {
+      padding: 40px 20px;
+      background-image: radial-gradient(#ffffff, #f2f4f5);
+      min-height: 200px;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-column-gap: 2rem;
+      align-items: flex-start;
+
+      .section-img {
+        grid-row: 1;
+        grid-column: 2;
+
+        img {
+          margin-top: -50px;
+        }
+      }
+
+      .section-info {
+        grid-row: 1;
+        grid-column: 1;
+        h2 {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -318,7 +373,7 @@
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
     padding: 40px 20px 0 20px;
-    // overflow: hidden;
+    overflow: initial;
 
     .containerish {
       min-height: 85vh;
@@ -354,6 +409,32 @@
     }
   }
   /* BIO ********************************************************** */
+  .bio {
+    .containerish {
+      padding: 60px 4rem;
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      grid-column-gap: 6rem;
+      align-items: center;
+
+      .section-img {
+        grid-row: 1;
+        grid-column: 2;
+
+        img {
+          margin-top: -70px;
+        }
+      }
+
+      .section-info {
+        grid-row: 1;
+        grid-column: 1;
+        h2 {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
@@ -424,6 +505,32 @@
     }
   }
   /* BIO ********************************************************** */
+  .bio {
+    .containerish {
+      padding: 40px 4rem;
+      display: grid;
+      grid-template-columns: 1fr 100px 320px;
+      grid-column-gap: 6rem;
+      align-items: center;
+
+      .section-img {
+        grid-row: 1;
+        grid-column: 2 / 4;
+
+        img {
+          margin-top: -70px;
+        }
+      }
+
+      .section-info {
+        grid-row: 1;
+        grid-column: 1;
+        h2 {
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
   /* HYDRAFACIAL ************************************************** */
