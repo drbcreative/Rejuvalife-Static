@@ -109,6 +109,47 @@
     }
   }
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px;
+    // overflow: hidden;
+
+    .containerish {
+      min-height: 500px;
+      display: grid;
+      grid-template-columns: 1fr 75px 1fr;
+      position: relative;
+
+      .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          // left: 50%;
+          // transform: translateX(-50%);
+          margin-bottom: 0;
+        }
+      }
+      .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        h3,
+        h2,
+        p {
+          text-align: left;
+        }
+        .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem;
+        }
+      }
+    }
+  }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -182,6 +223,43 @@
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px;
+    // overflow: hidden;
+
+    .containerish {
+      min-height: 530px;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative;
+
+      .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          // left: 50%;
+          // transform: translateX(-50%);
+          margin-bottom: 0;
+        }
+      }
+      .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 2rem;
+        .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem;
+        }
+      }
+    }
+  }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -238,6 +316,43 @@
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px;
+    // overflow: hidden;
+
+    .containerish {
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative;
+
+      .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10;
+
+        img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          // left: 50%;
+          // transform: translateX(-50%);
+          margin-bottom: 0;
+        }
+      }
+      .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 4rem;
+        .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem;
+        }
+      }
+    }
+  }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -278,6 +393,36 @@
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px;
+    // overflow: hidden;
+
+    .containerish {
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative;
+
+      .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10;
+
+        img {
+          width: 100%;
+        }
+      }
+      .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 6rem;
+        .ui-btn {
+          min-width: 220px;
+        }
+      }
+    }
+  }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */

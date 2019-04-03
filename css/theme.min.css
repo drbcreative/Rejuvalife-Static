@@ -60,7 +60,7 @@ h3 {
   font-family: "Lato", sans-serif;
   font-size: 1.5625rem;
   line-height: 1.5625rem;
-  letter-spacing: 0.3rem;
+  font-weight: 300;
   font-style: italic; }
 
 /* All Other Headers */
@@ -84,9 +84,8 @@ h6 {
 .body-copy {
   font-size: 1.25;
   line-height: calc(1.25rem * 2);
-  font-family: "Lato", sans-serif; }
-  .body-copy.is-light {
-    font-weight: 300; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
   .body-copy.is-bold {
     font-weight: 700; }
 
@@ -439,6 +438,26 @@ header {
       color: #3e3a42;
       font-family: "Lato", sans-serif;
       font-size: 15px; }
+
+/* -------------------------------------------------------------------------- */
+/* COOLSCULPTING SECTION */
+/* -------------------------------------------------------------------------- */
+.coolsculpting {
+  padding: 40px 20px;
+  background: url("../../img/cool-sculpting-bg@2x.jpg") center/cover; }
+  .coolsculpting .containerish {
+    min-height: 400px; }
+    .coolsculpting .containerish img {
+      max-width: 90%;
+      height: auto;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 2rem; }
+    .coolsculpting .containerish .section-info h3,
+    .coolsculpting .containerish .section-info h2,
+    .coolsculpting .containerish .section-info p {
+      text-align: center; }
 
 /* -------------------------------------------------------------------------- */
 /* NEWSLETTER SECTION */
@@ -889,6 +908,34 @@ img {
         font-family: "Lato", sans-serif;
         font-size: 15px; }
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px; }
+    .coolsculpting .containerish {
+      min-height: 500px;
+      display: grid;
+      grid-template-columns: 1fr 75px 1fr;
+      position: relative; }
+      .coolsculpting .containerish .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10; }
+        .coolsculpting .containerish .section-img img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 0; }
+      .coolsculpting .containerish .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4; }
+        .coolsculpting .containerish .section-info h3,
+        .coolsculpting .containerish .section-info h2,
+        .coolsculpting .containerish .section-info p {
+          text-align: left; }
+        .coolsculpting .containerish .section-info .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -947,6 +994,31 @@ img {
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px; }
+    .coolsculpting .containerish {
+      min-height: 530px;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative; }
+      .coolsculpting .containerish .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10; }
+        .coolsculpting .containerish .section-img img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 0; }
+      .coolsculpting .containerish .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 2rem; }
+        .coolsculpting .containerish .section-info .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -992,6 +1064,31 @@ img {
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px; }
+    .coolsculpting .containerish {
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative; }
+      .coolsculpting .containerish .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10; }
+        .coolsculpting .containerish .section-img img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          bottom: 0;
+          margin-bottom: 0; }
+      .coolsculpting .containerish .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 4rem; }
+        .coolsculpting .containerish .section-info .ui-btn {
+          width: auto;
+          padding: 0.8rem 1rem; }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */
@@ -1023,6 +1120,26 @@ img {
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
   /* COOLSCULPTING ************************************************ */
+  .coolsculpting {
+    padding: 40px 20px 0 20px; }
+    .coolsculpting .containerish {
+      min-height: 85vh;
+      display: grid;
+      grid-template-columns: 1fr 50px 1fr;
+      position: relative; }
+      .coolsculpting .containerish .section-img {
+        position: relative;
+        grid-column: 1 / 3;
+        grid-row: 1;
+        z-index: 10; }
+        .coolsculpting .containerish .section-img img {
+          width: 100%; }
+      .coolsculpting .containerish .section-info {
+        grid-row: 1;
+        grid-column: 2 / 4;
+        margin-top: 6rem; }
+        .coolsculpting .containerish .section-info .ui-btn {
+          min-width: 220px; }
   /* BIO ********************************************************** */
   /* NEWSLETTER *************************************************** */
   /* BOTOX AND FILLERS ******************************************** */

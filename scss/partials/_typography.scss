@@ -48,7 +48,7 @@ h3 {
   font-family: $font-primary;
   font-size: 1.5625rem; // 15px
   line-height: 1.5625rem;
-  letter-spacing: 0.3rem;
+  font-weight: 300;
   font-style: italic;
 }
 
@@ -79,10 +79,7 @@ h6 {
   font-size: 1.25; // 20px
   line-height: calc(1.25rem * 2);
   font-family: $font-primary;
-
-  &.is-light {
-    font-weight: 300;
-  }
+  font-weight: 300;
   &.is-bold {
     font-weight: 700;
   }
