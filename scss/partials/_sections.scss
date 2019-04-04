@@ -94,9 +94,6 @@
       p {
         text-align: left;
       }
-      h2 {
-        margin: 1rem 0;
-      }
     }
   }
 }
@@ -113,12 +110,6 @@
     img {
       margin-bottom: 2rem;
     }
-
-    .section-info {
-      h2 {
-        margin: 1rem 0;
-      }
-    }
   }
 }
 /* -------------------------------------------------------------------------- */
@@ -132,11 +123,12 @@
     background: url("../img/newsletter-bg@2x.jpg") center / cover;
     display: grid;
     h3,
-    h2 {
+    h2,
+    p {
       text-align: center;
     }
-    h2 {
-      margin-bottom: 1rem;
+    p {
+      margin-top: 0.5rem;
     }
     .form-control {
       margin-bottom: 0.5rem;
@@ -162,16 +154,35 @@
   .fillers > img {
     margin-bottom: 2rem;
   }
-  .botox > h3,
-  .fillers > h3 {
-    margin-bottom: 0;
-  }
-  .botox > h2,
-  .fillers > h2 {
-    margin: 0.5rem 0 1rem 0;
-  }
+
   .botox {
     margin-bottom: 2rem;
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* HYDRA FACIAL SECTION */
+/* -------------------------------------------------------------------------- */
+.hydrafacial {
+  overflow: hidden;
+  .hydra-big {
+    background: url("../../img/hydrafacial@2x.jpg") center / cover;
+    height: 60vh;
+  }
+  .hydra-info {
+    min-height: 200px;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      text-align: center;
+    }
+
+    .ui-btn-group {
+      align-self: stretch;
+    }
   }
 }
 
