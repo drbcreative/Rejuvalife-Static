@@ -185,6 +185,66 @@
     }
   }
 }
+/* -------------------------------------------------------------------------- */
+/* MEDICAL WEIGHT LOSS SECTION */
+/* -------------------------------------------------------------------------- */
+.medicalweightloss {
+  // padding: 40px 20px;
+  .containerish {
+    display: grid;
+
+    .col-left {
+      background: url("../../img/medical-weight-loss-bg@2x.jpg") center / cover;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .ui-btn-group {
+        align-self: stretch;
+
+        .ui-btn {
+          width: 100%;
+        }
+      }
+    }
+
+    .col-right {
+      background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
+      height: 50vh;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* HORMONE OPT LOSS SECTION */
+/* -------------------------------------------------------------------------- */
+.hormoneopt {
+  // padding: 40px 20px;
+  .containerish {
+    display: grid;
+
+    .col-left {
+      background: url("../../img/medical-weight-loss-bg@2x.jpg") center / cover;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .ui-btn-group {
+        align-self: stretch;
+
+        .ui-btn {
+          width: 100%;
+        }
+      }
+    }
+
+    .col-right {
+      background: url("../../img/hormone-opt@2x.jpg") center / cover;
+      height: 50vh;
+    }
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* APPOINTMENTS SECTION */

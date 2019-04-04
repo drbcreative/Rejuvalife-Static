@@ -263,7 +263,63 @@
     }
   }
   /* MEDICAL WEIGHT LOSS ****************************************** */
+  .medicalweightloss {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        grid-row: 1;
+        grid-column: 1;
+      }
+
+      .col-right {
+        grid-row: 1;
+        grid-column: 2;
+        overflow: hidden;
+
+        img {
+          min-width: 100%;
+          // min-height: 100%;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   /* HORMONE OPT ************************************************** */
+  .hormoneopt {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        grid-row: 1;
+        grid-column: 2;
+      }
+
+      .col-right {
+        grid-row: 1;
+        grid-column: 1;
+        overflow: hidden;
+
+        img {
+          min-width: 100%;
+          // min-height: 100%;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
   /* EVENT ******************************************************** */
   /* APPOINTMENTS ************************************************* */
   /* FOOTER ******************************************************* */
@@ -458,7 +514,63 @@
     }
   }
   /* MEDICAL WEIGHT LOSS ****************************************** */
+  .medicalweightloss {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: initial;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
+        height: 50vh;
+      }
+    }
+  }
   /* HORMONE OPT ************************************************** */
+  .hormoneopt {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: initial;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../../img/hormone-opt@2x.jpg") center / cover;
+        height: 50vh;
+      }
+    }
+  }
   /* EVENT ******************************************************** */
   /* APPOINTMENTS ************************************************* */
   /* FOOTER ******************************************************* */
@@ -588,7 +700,65 @@
   }
   /* HYDRAFACIAL ************************************************** */
   /* MEDICAL WEIGHT LOSS ****************************************** */
+  .medicalweightloss {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: initial;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
+        height: 85vh;
+      }
+    }
+  }
   /* HORMONE OPT ************************************************** */
+  .hormoneopt {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
+          cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: initial;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../../img/hormone-opt@2x.jpg") center / cover;
+        height: 85vh;
+      }
+    }
+  }
   /* EVENT ******************************************************** */
   /* APPOINTMENTS ************************************************* */
   /* FOOTER ******************************************************* */
