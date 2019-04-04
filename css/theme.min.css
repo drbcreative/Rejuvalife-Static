@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* -------------------------------------------------------------------------- */
 /* COLOR THEME */
 /* -------------------------------------------------------------------------- */
@@ -83,7 +84,7 @@ h6 {
 
 .body-copy {
   font-size: 1.25;
-  line-height: calc(1.25rem * 2);
+  line-height: 32px;
   font-family: "Lato", sans-serif;
   font-weight: 300; }
   .body-copy.is-bold {
@@ -100,9 +101,8 @@ h6 {
 .small-copy, .topbar .containerish .topbar-link {
   font-size: 16px;
   line-height: 22.5px;
-  font-family: "Lato", sans-serif; }
-  .small-copy.is-light, .topbar .containerish .is-light.topbar-link {
-    font-weight: 300; }
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
   .small-copy.is-semibold, .topbar .containerish .is-semibold.topbar-link {
     font-weight: 600; }
   .small-copy.is-bold, .topbar .containerish .is-bold.topbar-link {
@@ -232,13 +232,13 @@ header {
 .nav-item.nav-divider {
   position: relative; }
   .nav-item.nav-divider::after {
-    content: "";
+    content: "•";
     color: #5f7994;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 1; }
+    opacity: 0.4; }
 
 .nav-item:last-child {
   margin-right: 0 !important; }
@@ -462,7 +462,7 @@ header {
 .coolsculpting {
   padding: 40px 20px 40px 20px;
   overflow: hidden;
-  background: url("../../img/cool-sculpting-bg@2x.jpg") center/cover; }
+  background: url("../img/cool-sculpting-bg@2x.jpg") center/cover; }
   .coolsculpting .containerish {
     min-height: 400px; }
     .coolsculpting .containerish img {
@@ -515,7 +515,7 @@ header {
 /* -------------------------------------------------------------------------- */
 .botoxfillers {
   padding: 40px 20px;
-  background: url("../../img/botox-fillers-bg@2x.jpg") center/cover; }
+  background: url("../img/botox-fillers-bg@2x.jpg") center/cover; }
   .botoxfillers .containerish {
     display: grid; }
   .botoxfillers .botox > img,
@@ -530,7 +530,7 @@ header {
 .hydrafacial {
   overflow: hidden; }
   .hydrafacial .hydra-big {
-    background: url("../../img/hydrafacial@2x.jpg") center/cover;
+    background: url("../img/hydrafacial@2x.jpg") center/cover;
     height: 60vh; }
   .hydrafacial .hydra-info {
     min-height: 200px;
@@ -550,7 +550,7 @@ header {
 .medicalweightloss .containerish {
   display: grid; }
   .medicalweightloss .containerish .col-left {
-    background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+    background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -560,7 +560,7 @@ header {
       .medicalweightloss .containerish .col-left .ui-btn-group .ui-btn {
         width: 100%; }
   .medicalweightloss .containerish .col-right {
-    background: url("../../img/medial-weight-loss@2x.jpg") center/cover;
+    background: url("../img/medial-weight-loss@2x.jpg") center/cover;
     height: 50vh; }
 
 /* -------------------------------------------------------------------------- */
@@ -569,7 +569,7 @@ header {
 .hormoneopt .containerish {
   display: grid; }
   .hormoneopt .containerish .col-left {
-    background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+    background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
     padding: 40px 20px;
     display: flex;
     flex-direction: column;
@@ -579,7 +579,7 @@ header {
       .hormoneopt .containerish .col-left .ui-btn-group .ui-btn {
         width: 100%; }
   .hormoneopt .containerish .col-right {
-    background: url("../../img/hormone-opt@2x.jpg") center/cover;
+    background: url("../img/hormone-opt@2x.jpg") center/cover;
     height: 50vh; }
 
 /* -------------------------------------------------------------------------- */
@@ -588,7 +588,7 @@ header {
 .event {
   padding: 40px 0 0 0; }
   .event .containerish {
-    background: url("../../img/event-bg@2x.jpg") center/cover;
+    background: url("../img/event-bg@2x.jpg") center/cover;
     min-height: 100px;
     padding: 1rem;
     display: grid; }
@@ -622,11 +622,12 @@ header {
 .footer1 {
   min-height: 300px;
   padding: 40px 10px;
-  background: url("../../img/footer-1-bg@2x.jpg") center/cover;
+  background: url("../img/footer-1-bg@2x.jpg") center/cover;
   position: relative; }
   .footer1 .footer-link {
     color: #7b7f88;
     font-family: "Lato", sans-serif;
+    font-weight: 300;
     font-size: 15px;
     line-height: 20px; }
     .footer1 .footer-link:hover {
@@ -658,7 +659,8 @@ header {
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 15px;
-    line-height: 20px; }
+    line-height: 20px;
+    font-weight: 300; }
     .footer2 .footer-link:hover {
       text-decoration: none;
       color: #7b7f88; }
@@ -960,9 +962,9 @@ img {
       justify-content: center;
       align-items: center; }
     .hero .slide.slide-1 {
-      background: url("../../img/hero@2x.jpg") bottom center/cover; }
+      background: url("../img/hero@2x.jpg") bottom center/cover; }
     .hero .slide.slide-2 {
-      background: url("../../img/hero@2x.jpg") bottom center/cover; }
+      background: url("../img/hero@2x.jpg") bottom center/cover; }
   /* SEARCH ******************************************************* */
   .search {
     background: #f2f4f5;
@@ -1093,7 +1095,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr; }
     .medicalweightloss .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       grid-row: 1;
       grid-column: 1; }
@@ -1110,7 +1112,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr; }
     .hormoneopt .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       grid-row: 1;
       grid-column: 2; }
@@ -1126,7 +1128,7 @@ img {
   .event {
     padding: 40px 0; }
     .event .containerish {
-      background: url("../../img/event-bg@2x.jpg") center/cover;
+      background: url("../img/event-bg@2x.jpg") center/cover;
       min-height: 100px;
       padding: 2rem 1rem;
       display: grid;
@@ -1197,6 +1199,22 @@ img {
     margin-top: 2px; }
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
+  .search {
+    background: #f2f4f5;
+    padding: 40px 20px; }
+    .search .containerish {
+      display: grid;
+      grid-template-columns: min-content 1fr min-content;
+      align-items: center; }
+      .search .containerish .form-control {
+        border-radius: 0;
+        margin-bottom: 0; }
+      .search .containerish .form-control:not(button) {
+        border: 1px solid #ededed; }
+      .search .containerish ::placeholder {
+        color: #3e3a42;
+        font-family: "Lato", sans-serif;
+        font-size: 15px; }
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
     padding: 40px 20px 0 20px;
@@ -1222,8 +1240,8 @@ img {
         grid-column: 2 / 4;
         margin-top: 2rem; }
         .coolsculpting .containerish .section-info .ui-btn {
-          width: auto;
-          padding: 0.8rem 1rem; }
+          width: 220px;
+          padding: 0.8rem 0.5rem; }
   /* BIO ********************************************************** */
   .bio .containerish {
     padding: 40px 20px;
@@ -1250,7 +1268,7 @@ img {
   /* BOTOX AND FILLERS ******************************************** */
   .botoxfillers {
     padding: 40px 20px;
-    background: url("../../img/botox-fillers-bg@2x.jpg") center/cover; }
+    background: url("../img/botox-fillers-bg@2x.jpg") center/cover; }
     .botoxfillers .containerish {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -1288,7 +1306,7 @@ img {
   .medicalweightloss .containerish {
     display: grid; }
     .medicalweightloss .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -1298,13 +1316,13 @@ img {
         .medicalweightloss .containerish .col-left .ui-btn-group .ui-btn {
           width: initial; }
     .medicalweightloss .containerish .col-right {
-      background: url("../../img/medial-weight-loss@2x.jpg") center/cover;
-      height: 50vh; }
+      background: url("../img/medial-weight-loss@2x.jpg") center/cover;
+      height: 60vh; }
   /* HORMONE OPT ************************************************** */
   .hormoneopt .containerish {
     display: grid; }
     .hormoneopt .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -1314,13 +1332,13 @@ img {
         .hormoneopt .containerish .col-left .ui-btn-group .ui-btn {
           width: initial; }
     .hormoneopt .containerish .col-right {
-      background: url("../../img/hormone-opt@2x.jpg") center/cover;
-      height: 50vh; }
+      background: url("../img/hormone-opt@2x.jpg") center/cover;
+      height: 60vh; }
   /* EVENT ******************************************************** */
   .event {
     padding: 40px 0; }
     .event .containerish {
-      background: url("../../img/event-bg@2x.jpg") center/cover;
+      background: url("../img/event-bg@2x.jpg") center/cover;
       min-height: 100px;
       padding: 2rem 1rem;
       display: grid;
@@ -1378,6 +1396,9 @@ img {
       display: flex;
       align-items: center;
       justify-content: flex-end; }
+    .topbar .containerish .topbar-link {
+      margin-right: 1rem;
+      display: inline-flex; }
   .navbar .nav-logo {
     max-width: 350px;
     margin-top: 2px; }
@@ -1438,7 +1459,7 @@ img {
   .medicalweightloss .containerish {
     display: grid; }
     .medicalweightloss .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -1449,13 +1470,13 @@ img {
         .medicalweightloss .containerish .col-left .ui-btn-group .ui-btn {
           width: initial; }
     .medicalweightloss .containerish .col-right {
-      background: url("../../img/medial-weight-loss@2x.jpg") center/cover;
+      background: url("../img/medial-weight-loss@2x.jpg") center/cover;
       height: 85vh; }
   /* HORMONE OPT ************************************************** */
   .hormoneopt .containerish {
     display: grid; }
     .hormoneopt .containerish .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -1466,13 +1487,13 @@ img {
         .hormoneopt .containerish .col-left .ui-btn-group .ui-btn {
           width: initial; }
     .hormoneopt .containerish .col-right {
-      background: url("../../img/hormone-opt@2x.jpg") center/cover;
+      background: url("../img/hormone-opt@2x.jpg") center/cover;
       height: 85vh; }
   /* EVENT ******************************************************** */
   .event {
     padding: 60px 0; }
     .event .containerish {
-      background: url("../../img/event-bg@2x.jpg") center/cover;
+      background: url("../img/event-bg@2x.jpg") center/cover;
       min-height: 100px;
       padding: 2rem 2rem;
       display: grid;
@@ -1536,7 +1557,7 @@ img {
         grid-row: 1;
         z-index: 10; }
         .coolsculpting .containerish .section-img img {
-          width: 100%; }
+          width: 83%; }
       .coolsculpting .containerish .section-info {
         grid-row: 1;
         grid-column: 2 / 4;
@@ -1576,7 +1597,39 @@ img {
     .hydrafacial .hydra-info .ui-btn-group {
       align-self: center; }
   /* MEDICAL WEIGHT LOSS ****************************************** */
+  .medicalweightloss .containerish {
+    display: grid; }
+    .medicalweightloss .containerish .col-left {
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem; }
+      .medicalweightloss .containerish .col-left .ui-btn-group {
+        align-self: stretch; }
+        .medicalweightloss .containerish .col-left .ui-btn-group .ui-btn {
+          width: 220px; }
+    .medicalweightloss .containerish .col-right {
+      background: url("../img/medial-weight-loss@2x.jpg") center/cover;
+      height: 85vh; }
   /* HORMONE OPT ************************************************** */
+  .hormoneopt .containerish {
+    display: grid; }
+    .hormoneopt .containerish .col-left {
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center/cover;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 4rem; }
+      .hormoneopt .containerish .col-left .ui-btn-group {
+        align-self: stretch; }
+        .hormoneopt .containerish .col-left .ui-btn-group .ui-btn {
+          width: 220px; }
+    .hormoneopt .containerish .col-right {
+      background: url("../img/hormone-opt@2x.jpg") center/cover;
+      height: 85vh; }
   /* EVENT ******************************************************** */
   /* APPOINTMENTS ************************************************* */
   /* FOOTER ******************************************************* */ }

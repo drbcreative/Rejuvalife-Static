@@ -34,11 +34,11 @@
     }
 
     &.slide-1 {
-      // background: url("../../img/hero@2x.jpg") bottom center / cover;
+      // background: url("../img/hero@2x.jpg") bottom center / cover;
       background: $color-dark;
     }
     &.slide-2 {
-      // background: url("../../img/hero@2x.jpg") bottom center / cover;
+      // background: url("../img/hero@2x.jpg") bottom center / cover;
       background: $color-dark;
     }
   }
@@ -76,7 +76,7 @@
 .coolsculpting {
   padding: 40px 20px 40px 20px;
   overflow: hidden;
-  background: url("../../img/cool-sculpting-bg@2x.jpg") center / cover;
+  background: url("../img/cool-sculpting-bg@2x.jpg") center / cover;
 
   .containerish {
     min-height: 400px;
@@ -144,7 +144,7 @@
 /* -------------------------------------------------------------------------- */
 .botoxfillers {
   padding: 40px 20px;
-  background: url("../../img/botox-fillers-bg@2x.jpg") center / cover;
+  background: url("../img/botox-fillers-bg@2x.jpg") center / cover;
 
   .containerish {
     display: grid;
@@ -165,7 +165,7 @@
 .hydrafacial {
   overflow: hidden;
   .hydra-big {
-    background: url("../../img/hydrafacial@2x.jpg") center / cover;
+    background: url("../img/hydrafacial@2x.jpg") center / cover;
     height: 60vh;
   }
   .hydra-info {
@@ -194,7 +194,7 @@
     display: grid;
 
     .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center / cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -210,7 +210,7 @@
     }
 
     .col-right {
-      background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
+      background: url("../img/medial-weight-loss@2x.jpg") center / cover;
       height: 50vh;
     }
   }
@@ -224,7 +224,7 @@
     display: grid;
 
     .col-left {
-      background: url("../../img/medical-weight-loss-bg@2x.jpg") center / cover;
+      background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
       padding: 40px 20px;
       display: flex;
       flex-direction: column;
@@ -240,7 +240,7 @@
     }
 
     .col-right {
-      background: url("../../img/hormone-opt@2x.jpg") center / cover;
+      background: url("../img/hormone-opt@2x.jpg") center / cover;
       height: 50vh;
     }
   }
@@ -251,7 +251,7 @@
 .event {
   padding: 40px 0 0 0;
   .containerish {
-    background: url("../../img/event-bg@2x.jpg") center / cover;
+    background: url("../img/event-bg@2x.jpg") center / cover;
     min-height: 100px;
     padding: 1rem;
     display: grid;

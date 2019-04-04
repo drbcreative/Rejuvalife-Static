@@ -73,11 +73,11 @@
       }
 
       &.slide-1 {
-        background: url("../../img/hero@2x.jpg") bottom center / cover;
+        background: url("../img/hero@2x.jpg") bottom center / cover;
         // background: $color-dark;
       }
       &.slide-2 {
-        background: url("../../img/hero@2x.jpg") bottom center / cover;
+        background: url("../img/hero@2x.jpg") bottom center / cover;
         // background: $color-dark;
       }
     }
@@ -270,8 +270,7 @@
       grid-template-columns: 1fr 1fr;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         grid-row: 1;
         grid-column: 1;
@@ -299,8 +298,7 @@
       grid-template-columns: 1fr 1fr;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         grid-row: 1;
         grid-column: 2;
@@ -324,7 +322,7 @@
   .event {
     padding: 40px 0;
     .containerish {
-      background: url("../../img/event-bg@2x.jpg") center / cover;
+      background: url("../img/event-bg@2x.jpg") center / cover;
       min-height: 100px;
       padding: 2rem 1rem;
       display: grid;
@@ -421,6 +419,31 @@
   }
   /* HERO ********************************************************* */
   /* SEARCH ******************************************************* */
+  .search {
+    background: $color-light;
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: min-content 1fr min-content;
+      align-items: center;
+
+      .form-control {
+        border-radius: 0;
+        margin-bottom: 0;
+      }
+
+      .form-control:not(button) {
+        border: 1px solid #ededed;
+      }
+
+      ::placeholder {
+        color: #3e3a42;
+        font-family: $font-primary;
+        font-size: 15px;
+      }
+    }
+  }
   /* COOLSCULPTING ************************************************ */
   .coolsculpting {
     padding: 40px 20px 0 20px;
@@ -453,8 +476,8 @@
         grid-column: 2 / 4;
         margin-top: 2rem;
         .ui-btn {
-          width: auto;
-          padding: 0.8rem 1rem;
+          width: 220px;
+          padding: 0.8rem 0.5rem;
         }
       }
     }
@@ -497,7 +520,7 @@
   /* BOTOX AND FILLERS ******************************************** */
   .botoxfillers {
     padding: 40px 20px;
-    background: url("../../img/botox-fillers-bg@2x.jpg") center / cover;
+    background: url("../img/botox-fillers-bg@2x.jpg") center / cover;
 
     .containerish {
       display: grid;
@@ -558,8 +581,7 @@
       display: grid;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         display: flex;
         flex-direction: column;
@@ -575,8 +597,8 @@
       }
 
       .col-right {
-        background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
-        height: 50vh;
+        background: url("../img/medial-weight-loss@2x.jpg") center / cover;
+        height: 60vh;
       }
     }
   }
@@ -587,8 +609,7 @@
       display: grid;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         display: flex;
         flex-direction: column;
@@ -604,8 +625,8 @@
       }
 
       .col-right {
-        background: url("../../img/hormone-opt@2x.jpg") center / cover;
-        height: 50vh;
+        background: url("../img/hormone-opt@2x.jpg") center / cover;
+        height: 60vh;
       }
     }
   }
@@ -613,7 +634,7 @@
   .event {
     padding: 40px 0;
     .containerish {
-      background: url("../../img/event-bg@2x.jpg") center / cover;
+      background: url("../img/event-bg@2x.jpg") center / cover;
       min-height: 100px;
       padding: 2rem 1rem;
       display: grid;
@@ -688,6 +709,10 @@
         display: flex;
         align-items: center;
         justify-content: flex-end;
+      }
+      .topbar-link {
+        margin-right: 1rem;
+        display: inline-flex;
       }
     }
   }
@@ -785,8 +810,7 @@
       display: grid;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         display: flex;
         flex-direction: column;
@@ -803,7 +827,7 @@
       }
 
       .col-right {
-        background: url("../../img/medial-weight-loss@2x.jpg") center / cover;
+        background: url("../img/medial-weight-loss@2x.jpg") center / cover;
         height: 85vh;
       }
     }
@@ -815,8 +839,7 @@
       display: grid;
 
       .col-left {
-        background: url("../../img/medical-weight-loss-bg@2x.jpg") center /
-          cover;
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
         padding: 40px 20px;
         display: flex;
         flex-direction: column;
@@ -833,7 +856,7 @@
       }
 
       .col-right {
-        background: url("../../img/hormone-opt@2x.jpg") center / cover;
+        background: url("../img/hormone-opt@2x.jpg") center / cover;
         height: 85vh;
       }
     }
@@ -842,7 +865,7 @@
   .event {
     padding: 60px 0;
     .containerish {
-      background: url("../../img/event-bg@2x.jpg") center / cover;
+      background: url("../img/event-bg@2x.jpg") center / cover;
       min-height: 100px;
       padding: 2rem 2rem;
       display: grid;
@@ -931,7 +954,7 @@
         z-index: 10;
 
         img {
-          width: 100%;
+          width: 83%;
         }
       }
       .section-info {
@@ -994,7 +1017,63 @@
     }
   }
   /* MEDICAL WEIGHT LOSS ****************************************** */
+  .medicalweightloss {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: 220px;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../img/medial-weight-loss@2x.jpg") center / cover;
+        height: 85vh;
+      }
+    }
+  }
   /* HORMONE OPT ************************************************** */
+  .hormoneopt {
+    // padding: 40px 20px;
+    .containerish {
+      display: grid;
+
+      .col-left {
+        background: url("../img/medical-weight-loss-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 4rem;
+
+        .ui-btn-group {
+          align-self: stretch;
+
+          .ui-btn {
+            width: 220px;
+          }
+        }
+      }
+
+      .col-right {
+        background: url("../img/hormone-opt@2x.jpg") center / cover;
+        height: 85vh;
+      }
+    }
+  }
   /* EVENT ******************************************************** */
   /* APPOINTMENTS ************************************************* */
   /* FOOTER ******************************************************* */

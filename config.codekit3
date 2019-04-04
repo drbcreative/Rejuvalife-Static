@@ -265,7 +265,7 @@
 		"oAP": "/img/event-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/event-bg@2x.jpg": {
@@ -276,7 +276,7 @@
 		"oAP": "/img/event-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/event-woman.jpg": {
@@ -962,6 +962,14 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/video/rejuvalife.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/video/rejuvalife.mp4",
+		"oF": 0
 		}
 	},
 "hooks": [

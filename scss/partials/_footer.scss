@@ -7,12 +7,13 @@
 .footer1 {
   min-height: 300px;
   padding: 40px 10px;
-  background: url("../../img/footer-1-bg@2x.jpg") center / cover;
+  background: url("../img/footer-1-bg@2x.jpg") center / cover;
   position: relative;
 
   .footer-link {
     color: $color-dark;
     font-family: $font-primary;
+    font-weight: 300;
     font-size: 15px;
     line-height: 20px;
 
@@ -59,6 +60,7 @@
     font-family: $font-primary;
     font-size: 15px;
     line-height: 20px;
+    font-weight: 300;
 
     &:hover {
       text-decoration: none;
