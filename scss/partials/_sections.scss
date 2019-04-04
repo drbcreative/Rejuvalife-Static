@@ -147,6 +147,33 @@
     }
   }
 }
+/* -------------------------------------------------------------------------- */
+/* BOTOX AND FILLERS SECTION */
+/* -------------------------------------------------------------------------- */
+.botoxfillers {
+  padding: 40px 20px;
+  background: url("../../img/botox-fillers-bg@2x.jpg") center / cover;
+
+  .containerish {
+    display: grid;
+  }
+
+  .botox > img,
+  .fillers > img {
+    margin-bottom: 2rem;
+  }
+  .botox > h3,
+  .fillers > h3 {
+    margin-bottom: 0;
+  }
+  .botox > h2,
+  .fillers > h2 {
+    margin: 0.5rem 0 1rem 0;
+  }
+  .botox {
+    margin-bottom: 2rem;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* APPOINTMENTS SECTION */
