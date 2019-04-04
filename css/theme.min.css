@@ -396,7 +396,7 @@ header {
 /* IMAGE STYLES */
 /* -------------------------------------------------------------------------- */
 .img-border {
-  border: 5px solid #fff; }
+  border: 3px solid #fff; }
 
 .img-shadow {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.08); }
@@ -583,6 +583,24 @@ header {
     height: 50vh; }
 
 /* -------------------------------------------------------------------------- */
+/* EVENT SECTION */
+/* -------------------------------------------------------------------------- */
+.event {
+  padding: 40px 0 0 0; }
+  .event .containerish {
+    background: url("../../img/event-bg@2x.jpg") center/cover;
+    min-height: 100px;
+    padding: 1rem;
+    display: grid; }
+    .event .containerish .event-left {
+      position: relative; }
+      .event .containerish .event-left img {
+        position: relative;
+        top: -25px; }
+    .event .containerish .event-right h3 {
+      font-style: normal; }
+
+/* -------------------------------------------------------------------------- */
 /* APPOINTMENTS SECTION */
 /* -------------------------------------------------------------------------- */
 .appointments {
@@ -592,28 +610,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center; }
-  .appointments .appointment-wrapper {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
-    .appointments .appointment-wrapper #appointment-form {
-      background: rgba(255, 255, 255, 0.95);
-      min-height: 200px;
-      margin-top: 2rem;
-      width: 100%;
-      max-width: 855px;
-      padding: 2rem 1rem; }
-      .appointments .appointment-wrapper #appointment-form .form-control {
-        border-radius: 0; }
-      .appointments .appointment-wrapper #appointment-form input:not(:last-child) {
-        margin-bottom: 0.5rem; }
-    .appointments .appointment-wrapper .care-logo {
-      margin-top: 3rem;
-      max-width: 400px; }
-    .appointments .appointment-wrapper #financing {
-      margin: 2rem 0 2rem 0; }
+  .appointments .form-control {
+    border-radius: 0; }
 
 /* -------------------------------------------------------------------------- */
 /* FOOTER */
@@ -1152,7 +1150,34 @@ img {
         width: 100%;
         height: auto; }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 40px 0; }
+    .event .containerish {
+      background: url("../../img/event-bg@2x.jpg") center/cover;
+      min-height: 100px;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center; }
+      .event .containerish .event-left {
+        position: relative; }
+        .event .containerish .event-left img {
+          position: relative;
+          top: 0; }
+      .event .containerish .event-right {
+        padding: 0 2rem; }
+        .event .containerish .event-right h3 {
+          font-style: normal; }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center/cover;
+    min-height: 400px;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .appointments .form-control {
+      border-radius: 0; }
   /* FOOTER ******************************************************* */ }
 
 /* -------------------------------------------------------------------------- */
@@ -1319,7 +1344,36 @@ img {
       background: url("../../img/hormone-opt@2x.jpg") center/cover;
       height: 50vh; }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 40px 0; }
+    .event .containerish {
+      background: url("../../img/event-bg@2x.jpg") center/cover;
+      min-height: 100px;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center; }
+      .event .containerish .event-left {
+        position: relative; }
+        .event .containerish .event-left img {
+          position: relative;
+          top: -50px; }
+      .event .containerish .event-right {
+        padding: 0 2rem; }
+        .event .containerish .event-right h3 {
+          font-style: normal; }
+        .event .containerish .event-right h2 {
+          font-size: 40px; }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center/cover;
+    min-height: 400px;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .appointments .form-control {
+      border-radius: 0; }
   /* FOOTER ******************************************************* */ }
 
 /* -------------------------------------------------------------------------- */
@@ -1442,7 +1496,37 @@ img {
       background: url("../../img/hormone-opt@2x.jpg") center/cover;
       height: 85vh; }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 60px 0; }
+    .event .containerish {
+      background: url("../../img/event-bg@2x.jpg") center/cover;
+      min-height: 100px;
+      padding: 2rem 2rem;
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      grid-column-gap: 4rem;
+      align-items: center; }
+      .event .containerish .event-left {
+        position: relative; }
+        .event .containerish .event-left img {
+          position: relative;
+          top: -50px; }
+      .event .containerish .event-right {
+        padding: 0 2rem; }
+        .event .containerish .event-right h3 {
+          font-style: normal; }
+        .event .containerish .event-right h2 {
+          font-size: 40px; }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center/cover;
+    min-height: 400px;
+    padding: 90px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .appointments .form-control {
+      border-radius: 0; }
   /* FOOTER ******************************************************* */ }
 
 /* -------------------------------------------------------------------------- */

@@ -321,7 +321,45 @@
     }
   }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 40px 0;
+    .containerish {
+      background: url("../../img/event-bg@2x.jpg") center / cover;
+      min-height: 100px;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center;
+
+      .event-left {
+        position: relative;
+
+        img {
+          position: relative;
+          top: 0;
+        }
+      }
+      .event-right {
+        h3 {
+          font-style: normal;
+        }
+        padding: 0 2rem;
+      }
+    }
+  }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center / cover;
+    min-height: 400px;
+    padding: 60px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form-control {
+      border-radius: 0;
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 
@@ -572,7 +610,48 @@
     }
   }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 40px 0;
+    .containerish {
+      background: url("../../img/event-bg@2x.jpg") center / cover;
+      min-height: 100px;
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      align-items: center;
+
+      .event-left {
+        position: relative;
+
+        img {
+          position: relative;
+          top: -50px;
+        }
+      }
+      .event-right {
+        h3 {
+          font-style: normal;
+        }
+        h2 {
+          font-size: 40px;
+        }
+        padding: 0 2rem;
+      }
+    }
+  }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center / cover;
+    min-height: 400px;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form-control {
+      border-radius: 0;
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 
@@ -760,7 +839,49 @@
     }
   }
   /* EVENT ******************************************************** */
+  .event {
+    padding: 60px 0;
+    .containerish {
+      background: url("../../img/event-bg@2x.jpg") center / cover;
+      min-height: 100px;
+      padding: 2rem 2rem;
+      display: grid;
+      grid-template-columns: 400px 1fr;
+      grid-column-gap: 4rem;
+      align-items: center;
+
+      .event-left {
+        position: relative;
+
+        img {
+          position: relative;
+          top: -50px;
+        }
+      }
+      .event-right {
+        h3 {
+          font-style: normal;
+        }
+        h2 {
+          font-size: 40px;
+        }
+        padding: 0 2rem;
+      }
+    }
+  }
   /* APPOINTMENTS ************************************************* */
+  .appointments {
+    background: url("../img/appointment-bg@2x.jpg") center / cover;
+    min-height: 400px;
+    padding: 90px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .form-control {
+      border-radius: 0;
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 /* -------------------------------------------------------------------------- */
